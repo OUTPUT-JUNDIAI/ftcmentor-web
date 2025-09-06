@@ -35,7 +35,6 @@ type TooltipContentProps = {
   payload?: TooltipPayloadItem[];
   label?: string | number;
 
-  // ✅ adicionadas
   labelFormatter?: TooltipLabelFormatter;
   formatter?: TooltipValueFormatter;
 } & React.ComponentProps<'div'> & {
@@ -84,12 +83,15 @@ const ChartContainer = React.forwardRef<
   HTMLDivElement,
   React.ComponentProps<'div'> & {
     config: ChartConfig;
-    // ResponsiveContainer espera um único elemento de chart como filho
-    children: React.ReactElement;
+    children: React.ReactNode; // aceita qualquer ReactNode
   }
 >(({ id, className, children, config, ...props }, ref) => {
   const uniqueId = React.useId();
   const chartId = `chart-${id || uniqueId.replace(/:/g, '')}`;
+
+  // ✅ garante SEMPRE um ReactElement como filho do ResponsiveContainer
+  const childElement: React.ReactElement =
+    React.isValidElement(children) ? (children as React.ReactElement) : <div />;
 
   return (
     <ChartContext.Provider value={{ config }}>
@@ -104,7 +106,7 @@ const ChartContainer = React.forwardRef<
       >
         <ChartStyle id={chartId} config={config} />
         <RechartsPrimitive.ResponsiveContainer>
-          {children}
+          {childElement}
         </RechartsPrimitive.ResponsiveContainer>
       </div>
     </ChartContext.Provider>
@@ -228,7 +230,6 @@ const ChartTooltipContent = React.forwardRef<HTMLDivElement, TooltipContentProps
                 )}
               >
                 {formatter && item.value !== undefined && item.name ? (
-                  // formatter(value, name, item, index, rawPayload)
                   formatter(
                     item.value as TooltipValue,
                     item.name as TooltipName,
