@@ -107,7 +107,11 @@ export default function LandingPage() {
             Plataforma que facilita o matching entre equipes FIRST® Tech Challenge e mentores voluntários
             especialistas em STEAM, oferecendo suporte para formação e desenvolvimento.
           </p>
-          <img src="/logo.png" alt="FIRST® Tech Challenge Mentors" className="mx-auto h-64 mb-10" />
+          <img src="/logo.png" alt="FIRST® Tech Challenge Mentors" className="mx-auto h-64 mb-1 -mt-12" />
+          <div className="flex items-end justify-center gap-1 -mt-24 mb-1">
+            <img src="/output-logo.png" alt="OUTPUT" className="h-24 transform -translate-y-12" />
+            <img src="/logo-sesi.png" alt="SESI" className="h-48" />
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/auth/register?role=team">
               <Button size="lg" className="w-full sm:w-auto">
