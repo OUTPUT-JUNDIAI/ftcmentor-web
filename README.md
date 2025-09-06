@@ -246,7 +246,7 @@ npm run format
 
 ## 🚨 Importante: Escopo da Plataforma
 
-⚠️ **Esta plataforma NÃO é oficial do FTC**
+⚠️ **Esta plataforma NÃO é oficial do FIRST® Tech Challenge**
 
 - ❌ Não substitui canais oficiais do FIRST Tech Challenge
 - ❌ Não gerencia inscrições em competições

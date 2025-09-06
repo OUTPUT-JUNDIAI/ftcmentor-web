@@ -50,35 +50,46 @@ export default function LandingPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-20 sm:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-8">
-              Conectando
-              <span className="text-brand-primary"> Equipes FIRST® Tech Challenge </span>
-              com Mentores Especialistas
-            </h1>
-            <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-              Plataforma que facilita o matching entre equipes FIRST® Tech Challenge e mentores voluntários
-              especialistas em STEAM, oferecendo suporte para formação e desenvolvimento.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/auth/register?role=team">
-                <Button size="lg" className="w-full sm:w-auto">
-                  Sou uma Equipe
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </Link>
-              <Link href="/auth/register?role=mentor">
-                <Button size="lg" variant="outline" className="w-full sm:w-auto">
-                  Quero ser Mentor
-                </Button>
-              </Link>
-            </div>
+      <section className="relative isolate overflow-hidden py-20 sm:py-32">
+        {/* Video Background */}
+        <div className="absolute inset-0 -z-10">
+          <video
+            className="w-full h-full object-cover"
+            src="/videos/ftc-robots.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+          <div className="absolute inset-0 bg-white/70 backdrop-blur-sm"></div>
+        </div>
+
+        {/* Hero Content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-8">
+            Conectando
+            <span className="text-brand-primary"> Equipes FIRST® Tech Challenge </span>
+            com Mentores Especialistas
+          </h1>
+          <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+            Plataforma que facilita o matching entre equipes FIRST® Tech Challenge e mentores voluntários
+            especialistas em STEAM, oferecendo suporte para formação e desenvolvimento.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/auth/register?role=team">
+              <Button size="lg" className="w-full sm:w-auto">
+                Sou uma Equipe
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+            <Link href="/auth/register?role=mentor">
+              <Button size="lg" variant="outline" className="w-full sm:w-auto">
+                Quero ser Mentor
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
-
       {/* Features Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -87,7 +98,7 @@ export default function LandingPage() {
               Como Funciona
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Uma plataforma completa para facilitar a mentoria no ecossistema FTC
+              Uma plataforma completa para facilitar a mentoria no ecossistema FIRST® Tech Challenge
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

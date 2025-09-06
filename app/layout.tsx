@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'FIRST® Tech Challenge Mentor Platform',
-  description: 'Plataforma de mentoria para equipes FTC',
+  description: 'Plataforma de mentoria para equipes FIRST® Tech Challenge',
   manifest: '/manifest.json',
   themeColor: '#D9043D',
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',

@@ -96,7 +96,7 @@ function RegisterForm() {
           </Link>
           <h1 className="text-2xl font-bold text-gray-900">Criar conta</h1>
           <p className="text-gray-600 mt-2">
-            Junte-se à comunidade de mentoria FTC
+            Junte-se à comunidade de mentoria FIRST® Tech Challenge
           </p>
         </div>
 
