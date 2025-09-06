@@ -97,7 +97,7 @@ export default function LandingPage() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">          
           <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-8">
             Conectando
             <span className="text-brand-primary"> Equipes FIRST® Tech Challenge </span>
@@ -107,6 +107,7 @@ export default function LandingPage() {
             Plataforma que facilita o matching entre equipes FIRST® Tech Challenge e mentores voluntários
             especialistas em STEAM, oferecendo suporte para formação e desenvolvimento.
           </p>
+          <img src="/logo.png" alt="FIRST® Tech Challenge Mentors" className="mx-auto h-64 mb-10" />
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/auth/register?role=team">
               <Button size="lg" className="w-full sm:w-auto">
