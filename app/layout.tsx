@@ -7,7 +7,7 @@ import { Toaster } from 'sonner';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'FTC Mentor Platform',
+  title: 'FIRST® Tech Challenge Mentor Platform',
   description: 'Plataforma de mentoria para equipes FTC',
   manifest: '/manifest.json',
   themeColor: '#D9043D',
@@ -27,7 +27,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#D9043D" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="FTC Mentors" />
+        <meta name="apple-mobile-web-app-title" content="FIRST® Tech Challenge Mentors" />
       </head>
       <body className={inter.className} suppressHydrationWarning>
         <ThemeProvider

@@ -1,6 +1,6 @@
-# FTC Mentor Platform
+# FIRST® Tech Challenge Mentor Platform
 
-Uma plataforma PWA completa para conectar equipes FTC com mentores especialistas em STEAM, facilitando o matching, agendamento e acompanhamento de sessões de mentoria.
+Uma plataforma PWA completa para conectar equipes FIRST® Tech Challenge com mentores especialistas em STEAM, facilitando o matching, agendamento e acompanhamento de sessões de mentoria.
 
 ## 🚀 Funcionalidades
 
@@ -74,7 +74,7 @@ NEXT_PUBLIC_CALENDLY_ORIGIN=https://calendly.com
 NEXT_PUBLIC_GOOGLE_CALENDAR_URL=https://calendar.google.com
 
 # App Configuration
-NEXT_PUBLIC_APP_NAME=FTC Mentor Platform
+NEXT_PUBLIC_APP_NAME=FIRST® Tech Challenge Mentor Platform
 NEXT_PUBLIC_DEFAULT_LOCALE=pt-BR
 ```
 
@@ -253,7 +253,7 @@ npm run format
 - ❌ Não fornece informações oficiais sobre regras/eventos
 - ✅ Foca exclusivamente em mentoria e formação de equipes
 
-Sempre consulte os canais oficiais do FTC para informações sobre competições.
+Sempre consulte os canais oficiais do FIRST® Tech Challenge para informações sobre competições.
 
 ## 📚 Recursos Adicionais
 

@@ -1,7 +1,7 @@
 {
-  "name": "FTC Mentor Platform",
-  "short_name": "FTC Mentors",
-  "description": "Plataforma de mentoria para equipes FTC",
+  "name": "FIRST® Tech Challenge Mentor Platform",
+  "short_name": "FIRST® Tech Challenge Mentors",
+  "description": "Plataforma de mentoria para equipes FIRST® Tech Challenge",
   "theme_color": "#D9043D",
   "background_color": "#ffffff",
   "display": "standalone",

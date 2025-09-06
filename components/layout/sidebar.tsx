@@ -64,7 +64,7 @@ export function Sidebar({ className }: SidebarProps) {
         {!collapsed && (
           <div className="flex items-center space-x-2">
             <div className="h-8 w-8 rounded-full bg-brand-primary"></div>
-            <span className="font-bold text-lg text-gray-900">FTC Mentors</span>
+            <span className="font-bold text-lg text-gray-900">FIRST® Tech Challenge Mentors</span>
           </div>
         )}
         <Button

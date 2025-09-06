@@ -35,7 +35,7 @@ export default function LandingPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <div className="h-8 w-8 rounded-full bg-brand-primary"></div>
-              <span className="font-bold text-xl text-gray-900">FTC Mentor Platform</span>
+              <span className="font-bold text-xl text-gray-900">FIRST® Tech Challenge Mentor Platform</span>
             </div>
             <div className="flex items-center space-x-4">
               <Link href="/auth/login">
@@ -55,11 +55,11 @@ export default function LandingPage() {
           <div className="text-center">
             <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 mb-8">
               Conectando
-              <span className="text-brand-primary"> Equipes FTC </span>
+              <span className="text-brand-primary"> Equipes FIRST® Tech Challenge </span>
               com Mentores Especialistas
             </h1>
             <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-              Plataforma que facilita o matching entre equipes FTC e mentores voluntários 
+              Plataforma que facilita o matching entre equipes FIRST® Tech Challenge e mentores voluntários
               especialistas em STEAM, oferecendo suporte para formação e desenvolvimento.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -119,7 +119,7 @@ export default function LandingPage() {
             </h3>
             <div className="space-y-3 text-sm text-gray-600">
               <p>
-                • Esta plataforma <strong>não substitui canais oficiais</strong> do FIRST Tech Challenge (FTC)
+                • Esta plataforma <strong>não substitui canais oficiais</strong> do FIRST® Tech Challenge
               </p>
               <p>
                 • <strong>Não gerenciamos inscrições</strong> em competições ou eventos oficiais
@@ -128,7 +128,7 @@ export default function LandingPage() {
                 • O foco é exclusivamente na <strong>mentoria e formação</strong> de equipes
               </p>
               <p>
-                • Sempre consulte os canais oficiais do FTC para informações sobre competições e regras
+                • Sempre consulte os canais oficiais do FIRST® Tech Challenge para informações sobre competições e regras
               </p>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function LandingPage() {
           <div className="text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <div className="h-6 w-6 rounded-full bg-brand-primary"></div>
-              <span className="font-semibold text-gray-900">FTC Mentor Platform</span>
+              <span className="font-semibold text-gray-900">FIRST® Tech Challenge Mentor Platform</span>
             </div>
             <p className="text-sm text-gray-600 mb-4">
               Conectando o futuro da robótica através da mentoria

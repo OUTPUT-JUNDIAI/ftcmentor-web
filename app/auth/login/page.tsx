@@ -55,7 +55,7 @@ export default function LoginPage() {
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center space-x-2 mb-6">
             <div className="h-8 w-8 rounded-full bg-brand-primary"></div>
-            <span className="font-bold text-xl text-gray-900">FTC Mentors</span>
+            <span className="font-bold text-xl text-gray-900">FIRST® Tech Challenge Mentors</span>
           </Link>
           <h1 className="text-2xl font-bold text-gray-900">Entre em sua conta</h1>
           <p className="text-gray-600 mt-2">
