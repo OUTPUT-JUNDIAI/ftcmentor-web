@@ -1,0 +1,32 @@
+[
+  {
+    "id": "session-1",
+    "teamId": "team-1",
+    "mentorId": "mentor-1",
+    "title": "Introdução à Programação para Robótica",
+    "dateISO": "2024-01-25T19:00:00Z",
+    "durationMin": 120,
+    "tags": ["programacao", "iniciante", "arduino"],
+    "notes": "Sessão introdutória sobre conceitos básicos de programação aplicados à robótica",
+    "meetingUrl": "https://meet.google.com/abc-defg-hij",
+    "calendarProvider": "google",
+    "createdBy": "user-2",
+    "createdAt": "2024-01-18T14:20:00Z",
+    "updatedAt": "2024-01-18T14:20:00Z"
+  },
+  {
+    "id": "session-2",
+    "teamId": "team-1",
+    "mentorId": "mentor-1",
+    "title": "Design e Prototipagem de Chassis",
+    "dateISO": "2024-01-30T14:00:00Z",
+    "durationMin": 90,
+    "tags": ["mecanica", "cad", "design"],
+    "notes": "Workshop sobre design mecânico e uso de ferramentas CAD",
+    "meetingUrl": "https://calendly.com/carlos-santos/design-session",
+    "calendarProvider": "calendly",
+    "createdBy": "user-1",
+    "createdAt": "2024-01-22T16:45:00Z",
+    "updatedAt": "2024-01-22T16:45:00Z"
+  }
+]

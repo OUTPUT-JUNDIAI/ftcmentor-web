@@ -1,0 +1,75 @@
+[
+  {
+    "id": "mentor-1",
+    "userId": "user-2",
+    "skillsTech": ["programacao", "eletronica", "cad"],
+    "skillsNonTech": ["gestao", "documentacao"],
+    "languages": ["pt-BR", "en-US"],
+    "timezone": "America/Sao_Paulo",
+    "availability": [
+      {
+        "day": "tue",
+        "slots": ["19:00-21:00", "20:00-22:00"]
+      },
+      {
+        "day": "thu",
+        "slots": ["19:00-21:00"]
+      },
+      {
+        "day": "sat",
+        "slots": ["14:00-16:00", "16:00-18:00"]
+      }
+    ],
+    "modality": "hybrid",
+    "regions": ["Sudeste", "Sul"],
+    "preferences": {
+      "ageRange": "14-18",
+      "groupSize": "5-10"
+    },
+    "bio": "Engenheiro de Software com 10 anos de experiência. Especialista em programação, eletrônica e gestão de projetos. Voluntário em programas de educação STEAM há 3 anos.",
+    "links": {
+      "linkedin": "https://linkedin.com/in/carlos-santos",
+      "github": "https://github.com/carlos-santos",
+      "website": "https://carlos-santos.dev"
+    },
+    "approved": true,
+    "createdAt": "2024-01-10T08:45:00Z",
+    "updatedAt": "2024-01-10T08:45:00Z"
+  },
+  {
+    "id": "mentor-2",
+    "userId": "user-5",
+    "skillsTech": ["mecanica", "cad", "estrategia"],
+    "skillsNonTech": ["marketing", "captacao"],
+    "languages": ["en-US", "es-ES"],
+    "timezone": "America/New_York",
+    "availability": [
+      {
+        "day": "mon",
+        "slots": ["20:00-22:00"]
+      },
+      {
+        "day": "wed",
+        "slots": ["19:00-21:00", "20:00-22:00"]
+      },
+      {
+        "day": "fri",
+        "slots": ["19:00-21:00"]
+      }
+    ],
+    "modality": "online",
+    "regions": [],
+    "preferences": {
+      "ageRange": "15-18",
+      "groupSize": "3-8"
+    },
+    "bio": "Mechanical Engineer and robotics enthusiast with expertise in CAD design and strategic planning. Passionate about mentoring young minds in STEAM fields.",
+    "links": {
+      "linkedin": "https://linkedin.com/in/julia-martinez",
+      "website": "https://julia-martinez.com"
+    },
+    "approved": true,
+    "createdAt": "2024-01-05T16:35:00Z",
+    "updatedAt": "2024-01-05T16:35:00Z"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "user-1",
+    "role": "team",
+    "name": "Ana Silva",
+    "email": "ana@exemplo.com.br",
+    "phone": "+5511999999999",
+    "verifiedEmail": true,
+    "verifiedPhone": true,
+    "locale": "pt-BR",
+    "timezone": "America/Sao_Paulo",
+    "avatarUrl": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "createdAt": "2024-01-15T10:00:00Z",
+    "updatedAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "user-2",
+    "role": "mentor",
+    "name": "Carlos Eduardo Santos",
+    "email": "carlos@exemplo.com.br",
+    "phone": "+5511888888888",
+    "verifiedEmail": true,
+    "verifiedPhone": true,
+    "locale": "pt-BR",
+    "timezone": "America/Sao_Paulo",
+    "avatarUrl": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "createdAt": "2024-01-10T08:30:00Z",
+    "updatedAt": "2024-01-10T08:30:00Z"
+  },
+  {
+    "id": "user-3",
+    "role": "admin",
+    "name": "Maria Organização",
+    "email": "admin@ftcmentors.com.br",
+    "phone": "+5511777777777",
+    "verifiedEmail": true,
+    "verifiedPhone": true,
+    "locale": "pt-BR",
+    "timezone": "America/Sao_Paulo",
+    "avatarUrl": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "createdAt": "2024-01-01T00:00:00Z",
+    "updatedAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "user-4",
+    "role": "team",
+    "name": "Pedro Henrique",
+    "email": "pedro@exemplo.com.br",
+    "verifiedEmail": true,
+    "verifiedPhone": false,
+    "locale": "pt-BR",
+    "timezone": "America/Sao_Paulo",
+    "avatarUrl": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "createdAt": "2024-01-20T14:15:00Z",
+    "updatedAt": "2024-01-20T14:15:00Z"
+  },
+  {
+    "id": "user-5",
+    "role": "mentor",
+    "name": "Dr. Julia Martinez",
+    "email": "julia@mentor.com",
+    "verifiedEmail": true,
+    "verifiedPhone": true,
+    "locale": "en-US",
+    "timezone": "America/New_York",
+    "avatarUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
+    "createdAt": "2024-01-05T16:20:00Z",
+    "updatedAt": "2024-01-05T16:20:00Z"
+  }
+]

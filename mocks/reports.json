@@ -1,0 +1,13 @@
+[
+  {
+    "id": "report-1",
+    "targetType": "user",
+    "targetId": "user-4",
+    "reason": "Comportamento inadequado durante sessão",
+    "details": "Usuário interrompeu várias vezes a explicação e foi desrespeitoso com o mentor",
+    "createdBy": "user-2",
+    "status": "reviewing",
+    "createdAt": "2024-01-23T15:20:00Z",
+    "updatedAt": "2024-01-24T09:15:00Z"
+  }
+]

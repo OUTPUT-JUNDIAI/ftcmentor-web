@@ -1,0 +1,56 @@
+[
+  {
+    "id": "team-1",
+    "name": "Robotic Eagles",
+    "school": "Colégio Técnico de São Paulo",
+    "region": "Sudeste",
+    "needs": ["programacao", "estrategia", "mecanica"],
+    "languages": ["pt-BR"],
+    "availability": [
+      {
+        "day": "tue",
+        "slots": ["19:00-21:00"]
+      },
+      {
+        "day": "thu",
+        "slots": ["19:00-21:00", "20:00-22:00"]
+      },
+      {
+        "day": "sat",
+        "slots": ["14:00-16:00", "16:00-18:00"]
+      }
+    ],
+    "modality": "hybrid",
+    "steamAreas": ["eletronica", "programacao", "mecanica"],
+    "coachContact": "prof.silva@colegio.edu.br",
+    "notes": "Equipe iniciante, muito motivada para aprender",
+    "userId": "user-1",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "team-2",
+    "name": "Tech Innovators",
+    "school": "Instituto Federal do Rio Grande do Sul",
+    "region": "Sul",
+    "needs": ["cad", "eletronica", "gestao"],
+    "languages": ["pt-BR", "en-US"],
+    "availability": [
+      {
+        "day": "wed",
+        "slots": ["18:00-20:00"]
+      },
+      {
+        "day": "fri",
+        "slots": ["19:00-21:00"]
+      }
+    ],
+    "modality": "online",
+    "steamAreas": ["cad", "eletronica", "estrategia"],
+    "coachContact": "coach.pedro@ifrs.edu.br",
+    "notes": "Equipe avançada procurando especialização em CAD",
+    "userId": "user-4",
+    "createdAt": "2024-01-20T14:45:00Z",
+    "updatedAt": "2024-01-20T14:45:00Z"
+  }
+]
