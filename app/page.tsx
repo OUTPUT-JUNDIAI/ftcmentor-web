@@ -42,7 +42,7 @@ export default function LandingPage() {
             {/* Logo */}
             <div className="flex items-center space-x-2">
               <div className="h-8 w-16 rounded-full bg-brand-primary"></div>
-              <div className="flex items-center -gap-8">
+              <div className="flex items-center gap-2">
                 <img src="/logo-sm.png" alt="FTC Mentor Platform" className="h-8 w-16" />
                 <span className="font-bold text-base sm:text-xl text-gray-900 whitespace-nowrap">
                   FTC Mentor Platform
