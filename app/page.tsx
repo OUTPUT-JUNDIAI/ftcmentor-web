@@ -41,10 +41,13 @@ export default function LandingPage() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-full bg-brand-primary"></div>
-              <span className="font-bold text-base sm:text-xl text-gray-900 whitespace-nowrap">
-                FTC Mentor Platform
-              </span>
+              <div className="h-8 w-16 rounded-full bg-brand-primary"></div>
+              <div className="flex items-center -gap-8">
+                <img src="/logo-sm.png" alt="FTC Mentor Platform" className="h-8 w-16" />
+                <span className="font-bold text-base sm:text-xl text-gray-900 whitespace-nowrap">
+                  FTC Mentor Platform
+                </span>
+              </div>
             </div>
 
             {/* Desktop menu */}
@@ -53,7 +56,7 @@ export default function LandingPage() {
                 <Button variant="ghost">Entrar</Button>
               </Link>
               <Link href="/auth/register">
-                <Button>Começar</Button>
+                <Button variant="ghost">Registrar</Button>
               </Link>
             </div>
 
