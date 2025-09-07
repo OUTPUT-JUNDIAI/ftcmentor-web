@@ -56,7 +56,7 @@ export default function LandingPage() {
                 <Button variant="ghost">Entrar</Button>
               </Link>
               <Link href="/auth/register">
-                <Button variant="ghost">Registrar</Button>
+                <Button variant="ghost">Cadastre-se</Button>
               </Link>
             </div>
 
@@ -77,7 +77,7 @@ export default function LandingPage() {
                 </Button>
               </Link>
               <Link href="/auth/register" onClick={() => setIsMenuOpen(false)}>
-                <Button className="w-full justify-start">Começar</Button>
+                <Button variant="ghost" className="w-full justify-start">Cadastre-se</Button>
               </Link>
             </div>
           )}
